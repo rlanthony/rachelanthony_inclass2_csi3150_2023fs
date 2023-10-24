@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABCs of CSS</title>
+
+    <!-- link CSS and JS files -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="page_info" id="page_title">
+        Welcome to the Interactive ABC's of CSS Technology Learning Website
+      </h1>
+    </header>
+    <div id="instructions_container">
+      <h1 class="page_info" id="instructions">
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </h1>
+    </div>
+
+    <!-- container for the three features, hide result buttons, and show result buttons -->
+    <div class="abc_container">
+      <!-- feature a -->
+      <div class="abc">
+        <div class="feature" id="featureA">
+          <img src="./img/css-letter-a.png" alt="Aspect Ratio" />
+          <button type="button" id="hideA" class="hidebtn">Hide Result</button>
+        </div>
+        <button type="button" id="showA" class="showbtn">A</button>
+      </div>
+
+      <!-- feature b -->
+      <div class="abc">
+        <div class="feature" id="featureB">
+          <img src="./img/css-letter-b.png" alt="Border" />
+          <button type="button" id="hideB" class="hidebtn">Hide Result</button>
+        </div>
+        <button type="button" id="showB" class="showbtn">B</button>
+      </div>
+
+      <!-- feature c -->
+      <div class="abc">
+        <div class="feature" id="featureC">
+          <img src="./img/css-letter-c.png" alt="Colors" />
+          <button type="button" id="hideC" class="hidebtn">Hide Result</button>
+        </div>
+        <button type="button" id="showC" class="showbtn">C</button>
+      </div>
+    </div>
+  </body>
+</html>
